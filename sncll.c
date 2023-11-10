@@ -1,3 +1,4 @@
+//single non circular linked list in DS
 #include<stdio.h>
 #include <stdlib.h>
 struct node
@@ -72,24 +73,6 @@ void display()
            
 }
     
-/*void delete_end()
-{
-    struct node *ptr,*ptr1;
-    if(header==NULL)
-    {
-        printf("no node to delete");
-    }
-    else
-    {
-        while(ptr->link->link!=NULL)
-        {
-            ptr=ptr->link;
-        }
-        ptr1=ptr->link;
-        free(ptr1);
-        ptr->link=NULL;
-    }
-}*/
 
 void add_end()
 {
