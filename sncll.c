@@ -39,6 +39,9 @@ void add_beg()
     struct node *t;
     t=(struct node *)malloc(sizeof(struct node));
     int data;
+    
+    printf("Get a pull request");
+        
     scanf("%d",&data);
     t->data=data;
     if(header==NULL)
